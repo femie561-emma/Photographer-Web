@@ -63,7 +63,6 @@ header nav ul li a:hover{
     height: 90vh;
     background: url('hero.jpg') center/cover no-repeat;
     color: #fff;
-    margin-top:60px;
 }
 
 .hero::before{
