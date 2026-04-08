@@ -486,7 +486,8 @@ line-height: 1.5;
     }
     header{
         display:flex;
-        gap:30px
+        gap:70px;
+        justify-content:space-around;
     }
 
     .nav-links{
