@@ -26,7 +26,7 @@ header{
     align-items: center;
     padding: 15px 50px;
     background: #fff;
-    position: relative;
+    position: fixed;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -62,6 +62,7 @@ header nav ul li a:hover{
     height: 90vh;
     background: url('hero.jpg') center/cover no-repeat;
     color: #fff;
+    margin-top:60px;
 }
 
 .hero::before{
