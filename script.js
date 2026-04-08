@@ -30,9 +30,9 @@ window.addEventListener('scroll', () =>{
 document.getElementById("contact-form").addEventListener("submit",function(e){
   e.preventDefault();
 
-  const name = document.getElementById("name");
-  const email = document.getElementById("email");
-  const message = document.getElementById("message");
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
 
   let phone = "2347015027995";
 
