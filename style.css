@@ -484,7 +484,7 @@ line-height: 1.5;
 
     .hamburger{
         display: flex;
-        position: relative;
+        position: fixed;
   z-index: 1100;
     }
 
